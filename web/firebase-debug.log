@@ -1,0 +1,28 @@
+[debug] [2018-08-30T20:57:58.075Z] ----------------------------------------------------------------------
+[debug] [2018-08-30T20:57:58.078Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sravan\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only hosting
+[debug] [2018-08-30T20:57:58.078Z] CLI Version:   4.2.1
+[debug] [2018-08-30T20:57:58.078Z] Platform:      win32
+[debug] [2018-08-30T20:57:58.078Z] Node Version:  v8.11.4
+[debug] [2018-08-30T20:57:58.078Z] Time:          Thu Aug 30 2018 16:57:58 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-30T20:57:58.078Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-30T20:57:58.092Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-30T20:57:58.092Z] > authorizing via signed-in user
+[debug] [2018-08-30T20:57:58.094Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-30T20:57:58.095Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-08-30T20:57:58.285Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-30T20:57:58.303Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/patient-empowerment  
+ 
+[debug] [2018-08-30T20:57:58.562Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-30T20:57:58.562Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/patient-empowerment  
+ 
+[debug] [2018-08-30T20:57:58.941Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Sravan\Documents\Website\web'...
+[info] 
+[debug] [2018-08-30T20:57:58.944Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/98121173066/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-30T20:57:59.469Z] <<< HTTP RESPONSE 200
+[info] i  hosting[patient-empowerment]: Serving hosting files from: ./
+[info] +  hosting[patient-empowerment]: Local server: http://localhost:5000
